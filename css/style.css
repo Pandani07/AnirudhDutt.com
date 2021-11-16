@@ -202,6 +202,11 @@ button:focus,
   text-transform: uppercase;
 }
 
+.img-responsive{
+  border-radius: 10%;
+  
+}
+
 @media (max-width: 768px) {
   .section-title {
     text-align: left;
@@ -274,6 +279,7 @@ button:focus,
   }
 }
 
+
 @media (max-width: 600px) {
   .header {
     padding: 20px;
@@ -310,7 +316,9 @@ button:focus,
 .social-icon li a:hover {
   border-color: #cccccc;
 }
-
+.university{
+  font-size: 13px;
+}
 /*-------------------
  * Expertise
  *-------------------*/
@@ -344,9 +352,18 @@ button:focus,
   margin-bottom: 5px;
 }
 
+
+.remote{
+  font-size: 10px;
+}
 /*-------------------
  * Projects
  *-------------------*/
+
+ .portfolio-thumb{
+ 
+  background-size: cover;
+ }
 
 .portfolio-item {
   position: relative;
@@ -452,6 +469,11 @@ button:focus,
 .section-contact address strong {
   font-size: 13px;
   text-transform: uppercase;
+}
+
+.mobilenumber{
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mailaddress {
