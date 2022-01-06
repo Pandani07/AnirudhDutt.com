@@ -203,7 +203,7 @@ button:focus,
 }
 
 .img-responsive{
-  border-radius: 10%;
+  border-radius: 5%;
   
 }
 
@@ -368,7 +368,7 @@ button:focus,
 .portfolio-item {
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .portfolio-item .portfolio-thumb img {
