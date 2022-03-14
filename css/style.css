@@ -5,6 +5,8 @@
 :root {
   --custom-darkblue: #030170;
   --linkcolor: #0076e4;
+  --hover-color:#7353ff;
+  --social-hover: #8ca6fc;
 }
 
 /* --------------------------------------
@@ -172,7 +174,7 @@ button:focus,
  * Section Wrapper
  *-------------------*/
 .section-wrapper {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -290,6 +292,28 @@ button:focus,
      * Social Icon
      *-------------------*/
 
+
+     #myBtn {
+       height: 2.5em;
+       width: 2.5em;
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: var(--custom-darkblue);
+      color: white;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 50%;
+    }
+    
+    #myBtn:hover {
+      background-color:var(--hover-color);
+    }
+
 .social-icon {
   margin: 20px 0;
   padding: 0;
@@ -303,10 +327,10 @@ button:focus,
 
 .social-icon li a {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   color: #333333;
-  width: 34px;
-  height: 34px;
+  width: 2.2em;
+  height: 2.2em;
   line-height: 33px;
   text-align: center;
   border-radius: 2px;
@@ -314,7 +338,9 @@ button:focus,
 }
 
 .social-icon li a:hover {
-  border-color: #cccccc;
+  border-color: var(--custom-darkblue);
+  background-color: var(--social-hover);
+  font-size: 20px;
 }
 .university{
   font-size: 13px;
@@ -540,3 +566,4 @@ button:focus,
   text-align: center;
   top: 65%;
 }
+
