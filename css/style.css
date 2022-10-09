@@ -196,6 +196,17 @@ button:focus,
   margin-right: 30px;
   text-align: right;
 }
+.about-me{
+  margin-right: 30px;
+  text-align: left;
+}
+
+.about-me h2{
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
 
 .section-title h2 {
   font-size: 14px;
@@ -286,6 +297,17 @@ button:focus,
   .header {
     padding: 20px;
   }
+}
+
+.resume{
+  margin: 10px;
+}
+.resume-item{
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 
@@ -415,7 +437,7 @@ button:focus,
   background: -webkit-linear-gradient(
     top,
     transparent 0%,
-    rgba(0, 0, 0, 0.5) 100%
+    rgba(58, 58, 58, 0.5) 100%
   );
 }
 
@@ -426,7 +448,7 @@ button:focus,
   top: 100%;
   left: 0;
   right: 0;
-  background: -webkit-linear-gradient(top, transparent 0%, #000 100%);
+  /* background: -webkit-linear-gradient(top, transparent 0%, rgb(58, 58, 58) 100%); */
   transition: all 0.2s linear;
 }
 
@@ -470,9 +492,35 @@ button:focus,
 /*-------------------
  * Content Item
  *-------------------*/
-
-.content-item {
+.content-item-uni{
+  padding: 20px;
+  
   margin-bottom: 40px;
+  border-radius:10px;
+ 
+  border: 1px solid rgb(239, 239, 239);
+}
+.content-item {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius:10px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid  rgb(239, 239, 239);
+}
+.content-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.content-item-uni:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.content-item-uni h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .content-item h3 {
