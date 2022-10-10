@@ -25,6 +25,9 @@ body {
 /* --------------------------------------
  * Global Typography
  *------------------------------------------*/
+hr{
+  width: 94%;
+}
 
 h1,
 h2,
@@ -517,14 +520,14 @@ button:focus,
 
 .content-item-uni h3 {
   margin: 0 0 10px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .content-item h3 {
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
   line-height: 1;
   font-weight: bold;
   text-transform: uppercase;
@@ -532,12 +535,33 @@ button:focus,
 
 .content-item h4 {
   margin: 0;
+  font-weight: normal;
   line-height: 1;
 }
 
-.content-item small {
-  color: #888888;
+.location{
+  font-family: "Hind", sans-serif;
+  font-size: 15px;
+  line-height: 1.8em;
+  color: #000000;
+  font-weight: 300;
 }
+
+.date{
+  font-size: 12px;
+  color: #989898;
+}
+
+.content-item h2{
+  font-size: 16px;
+}
+
+
+
+.content-item p{
+  font-weight: normal;
+}
+
 
 /*-------------------
  * Contact
